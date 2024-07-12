@@ -14,6 +14,10 @@ spring:
     user:
       name: root
       password: s3cr3t
+  logging:
+    level:
+      org.springframework: DEBUG
+
 
 #$ git push --set-upstream origin config-server establer la nueva rama
 
