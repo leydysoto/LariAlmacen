@@ -2,8 +2,8 @@ server:
   port: 8085
 eureka:
   client:
-    serviceUrl:
-    defaultZone: http://localhost:8099/eureka/
+    service-url:
+      defaultZone: http://localhost:8099/eureka/
 spring:
   cloud:
     gateway:
@@ -14,4 +14,4 @@ spring:
         - id: service-product
           uri: lb://service-product
           predicates:
-            -Path=/productos/**
+            - Path=/productos/**
