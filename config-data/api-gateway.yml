@@ -10,7 +10,7 @@ spring:
         locator:
           enabled: true
       routes:
-        - id: SERVICE-PRODUCT
+        - id: service-product
           uri: lb://service-product
           predicates:
             - Path=/productos/**
