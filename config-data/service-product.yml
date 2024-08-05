@@ -2,9 +2,9 @@ spring:
     application:
         name: service-product
     datasource:
-        url: jdbc:mysql://localhost:3306/rico
+        url: jdbc:mysql://localhost:5346/rico
         username: root
-        password: ""
+        password: "12345"
         driver-class-name: com.mysql.cj.jdbc.Driver
 
     jpa:
